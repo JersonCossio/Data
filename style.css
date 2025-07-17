@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #002855;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #002855;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #002855;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+#resultados > div {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 6px solid #002855;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#resultados h3 {
+  margin-top: 0;
+  color: #002855;
+}
+
+#resultados p {
+  margin: 5px 0;
+}
+
+#resultados img {
+  margin-top: 10px;
+  max-width: 150px;
+  border-radius: 8px;
+  border: 2px solid #FFD100;
+}
